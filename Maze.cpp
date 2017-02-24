@@ -149,14 +149,14 @@ bool Maze::traverse()
       int col = curr_cell->getCol(); // Bailey
 
       //check that the current maze location corresponds to SPACE, otherwise delete it
-      if (                                           )
+      if (curr_cell == SPACE)
       {
          //update the maze location to TRIED
          //put the cell on the stack (move forward through the maze)
-
-
-
-
+		 curr_cell == TRIED;
+		 
+         //put the cell on the stack (move forward through the maze)
+		 curr_cell = curr_cell->nextCell();
 
 
 /*  */
@@ -167,6 +167,7 @@ bool Maze::traverse()
       {
          //DO THIS
          //delete the cell
+		 delete curr_cell;
 
       }
    }
