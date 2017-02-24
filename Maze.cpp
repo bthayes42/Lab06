@@ -101,14 +101,14 @@ void Maze::processSolution(StackLinked<Cell>* stack)
 {
    //DO THIS
    //the stack has the solution path stored
-   while(                    )
+   while(isSolved() = true)
    {
       //get the next cell from the stack
-
+		curr_cell->nextCell;
 
       
       //update the maze location to PATH
-
+		curr_cell == PATH;
 
 
 
